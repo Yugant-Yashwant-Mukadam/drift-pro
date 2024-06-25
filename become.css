@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Mukta,sans-serif;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+body{
+   background-image: linear-gradient(to right ,rgb(184, 182, 182),rgb(0, 0, 0));
+}
+header{
+    background-color:#2B2E63 ;
+}
+.page{
+    transform: translate(0%,25%);
+    margin: auto;
+ border-radius: 30px;
+ border: 2px solid rgb(89, 90, 94);
+    background-color: #00000000;
+    width :400px;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.yug{
+float: center;
+color: rgba(0, 0, 0, 0.773);
+
+}
